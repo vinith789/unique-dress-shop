@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.image {
+    background-image: url(./wp11711993-dress-shop-wallpapers.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    max-width: 500px;
+    width: 100%;
+    background-color: rgba(120, 93, 172, 0.3);
+    padding: 40px 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+}
+.login input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none; 
+    outline:none;
+    border-radius: 10px;
+    box-shadow: 3px 4px 1px lightgray;
+    font-weight: bold;
+    
+}
+.login input:hover{
+    border: gray 2px solid;
+    cursor: pointer;
+} 
+.btn{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: navy;
+    color: white;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: navy;
+    cursor: pointer;
+}
+.login p{
+    margin-left: 120px;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+}  
+.login h1{
+    padding-bottom: 10px;
+    text-align: center;
+    color: navy;
+    text-shadow: 1px 1px 1px rgb(139, 132, 207) ;
+}                                                      
